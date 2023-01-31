@@ -1,1 +1,126 @@
-/* Copy and paste your CSS from CodePen into here */
+
+#front_cover {
+    height:100vh;
+    width:100%;
+    margin: auto;
+    background-image: url(https://www.chac.qld.edu.au/wp-content/uploads/James-Morrison-Website-169.jpg);
+    background-size: cover;
+    display: block;
+  }
+  #title_text {
+    position: absolute;
+    top: 10%;
+    right: 9%;
+    color: white;
+    opacity: 0.9;
+  }
+  
+  
+  h3 {
+    font-size: 22px;
+    margin-bottom: -15px;
+    color:rgba(219,233,255,1);
+  
+  }
+  
+  #image {
+    max-width: 100%;
+    max-height: auto;
+    padding-top: auto;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 15px;
+    border-color: rgba(219,233,255,.2);
+  }
+  
+  @media only screen and (max-width: 750px) {
+    #image {
+      max-width: 80%;
+      max-height: 80%;
+    }
+    #img-div {
+      padding: 10px;
+    }
+  }
+  #main {
+    background-color: #121212;
+    font-family: Ubuntu, sans-serif;
+    color: rgba(219,233,255,.9);
+    text-align: center;
+    font-size: 17px;
+  }
+  .ord_li {
+    display: inline-block;
+    text-align: left;
+  }
+  
+  #list_cont {
+    width: 35em;
+  }
+  
+  #footer {
+    text-align: right;
+    font-size: 0.5em;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    color: rgb(56, 173, 169)
+  }
+  
+  #img-caption {
+  font-size: 14px;
+    color: rgba(219,233,255,1);
+  }
+  
+  #img-div {
+    background-color: #121212;
+    max-width: 655px;
+    margin: 300px auto; 
+    padding: 10px;
+    text-align: center;
+  }
+  
+  #click_heading {
+    padding: auto;
+    font-size: 24px;
+  }
+  
+  
+  #tribute_info {
+    line-height: 2em;
+    margin: 100px auto;
+    border-style: solid;
+    border-width: 5px;
+   border-color: rgba(219,233,255,.2);
+    border-radius: 20px;
+    background-color: #121212;
+    max-width: 775px;
+    padding: 10px 20px;
+  }
+  
+  #click_div {
+    border-width: .2em;
+    border-color: lightgray;
+    border-style: solid;
+    border-radius: 10px;
+    border: groove 0.5em rgba(219,233,255,.2);
+    background-color: #121212;
+    max-width: 60%;
+    margin: 200px auto;
+    text-align: center;
+  }
+  a {
+    color: rgb(179,158,210)
+  }
+  h2 {
+    font-size: 30px;
+    color: rgba(255,255,255,.9);
+    }
+  h4 {
+    color: white;
+    opacity: .9;
+  }
+  
+  h1 {
+    font-size: 60px;
+  }
